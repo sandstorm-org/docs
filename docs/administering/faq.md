@@ -259,15 +259,15 @@ WILDCARD_HOST=*.yourname.sandcats.io:6080
 
 ## Can I customize the root page of my Sandstorm install?
 
-You can definitely customize the root page of your Sandstorm install. You might have noticed that
-[Oasis](https://oasis.sandstorm.io/) has a customized front page.
+You can definitely customize the root page of your Sandstorm install. The old public service called
+Oasis had a customized front page.
 
-![Customized Oasis front page](https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/customized-oasis.png)
+![Customized Oasis front page](customized-oasis.png)
 
-This is by contrast with the default, which you can see on our older
-[alpha.sandstorm.io](https://alpha.sandstorm.io/) service.
+This is by contrast with the default, which you can see on the older
+[alpha.sandstorm.io](https://alpha.sandstorm.io/) server.
 
-![Uncustomized front page](https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/uncustomized-home.png)
+![Uncustomized front page](uncustomized-home.png)
 
 This is achieved by configuring a web page to be displayed in the background behind the login dialog
 (the home page when logged out). To configure this setting, visit your server's **Admin panel**
