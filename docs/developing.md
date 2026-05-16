@@ -6,7 +6,7 @@ apps on top of Sandstorm, package existing apps, and understand how apps and San
 <a class="next-step why" href="https://sandstorm.org/developer">Why Sandstorm</a>
 <a class="next-step discussion" href="https://groups.io/g/sandstorm-dev-group/topics">Community Q&amp;A</a>
 <a class="next-step app-market" href="https://apps.sandstorm.io/">See App Market</a>
-<a class="next-step live-chat" href="https://kiwiirc.com/client/irc.libera.chat/?channel=#sandstorm">Live chat via IRC</a>
+<a class="next-step live-chat" href="https://sandstorm.zulipchat.com">Live chat</a>
 <a class="next-step demo-app" href="https://apps.sandstorm.io/app/0dp7n6ehj8r5ttfc0fj0au6gxkuy1nhw2kx70wussfa1mqj8tf80">Try a demo app</a>
 </div>
 <!-- <div class="next-step">Sample apps in PHP, Python, Meteor</div> -->
@@ -45,7 +45,7 @@ Not written yet:
 The Sandstorm ecosystem is full of people who want to promote your app, give you feedback, and use
 it.
 
-- **Getting help**: [Community feedback and Q&A](https://groups.google.com/d/forum/sandstorm-dev) | [Real-time IRC chat on libera.chat](https://kiwiirc.com/client/irc.libera.chat/?channel=#sandstorm) | [Watch presentations on the Sandstorm YouTube channel](https://www.youtube.com/channel/UC8xKZRW86Fa9W00uAppBXXg)
+- **Getting help**: [Community feedback and Q&A](https://groups.io/g/sandstorm-user-group) | [Real-time chat on Zulip](https://sandstorm.zulipchat.com) | [Watch presentations on the Sandstorm YouTube channel](https://www.youtube.com/channel/UC8xKZRW86Fa9W00uAppBXXg)
 - **Publicity**: [Share news about a meetup/conference talk about your app](https://sandstorm.org/news/) | [Public demo service for all Sandstorm apps](https://sandstorm.org/news/2015-02-06-app-demo)
 - **Read more**: [All community resources](https://sandstorm.org/community)
 

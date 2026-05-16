@@ -93,22 +93,22 @@
   display: block;
 }
 .next-step.tutorial::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/try-tutorial.svg");
+  background-image: url("try-tutorial.svg");
 }
 .next-step.why::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/sandstorm.svg");
+  background-image: url("sandstorm.svg");
 }
 .next-step.discussion::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/write.svg");
+  background-image: url("write.svg");
 }
 .next-step.app-market::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/app-market.svg");
+  background-image: url("app-market.svg");
 }
 .next-step.live-chat::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/live-chat.svg");
+  background-image: url("live-chat.svg");
 }
 .next-step.demo-app::before {
-  background-image: url("https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/try-demo-app.svg");
+  background-image: url("try-demo-app.svg");
 }
 
 #get-help {

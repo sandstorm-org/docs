@@ -210,11 +210,11 @@ You can read [technical details](wildcard.md) if you wish.
 
 You might see an error screen like this:
 
-![Unable to resolve the server's DNS address, screenshot in Chromium](https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/unable-to-resolve.png)
+![Unable to resolve the server's DNS address, screenshot in Chromium](unable-to-resolve.png)
 
 even when the app management interface seems to work fine:
 
-![Skinny Sandstorm admin interface, showing your app instance](https://alpha-evgl4wnivwih0k6mzxt3.sandstorm.io/works-fine.png)
+![Skinny Sandstorm admin interface, showing your app instance](works-fine.png)
 
 You might also have seen a warning from the Sandstorm admin settings area. An error will appear if
 your configuration fails the self-test. If so, **read the Javascript console.** Sandstorm will log

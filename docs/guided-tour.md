@@ -87,11 +87,11 @@ In Sandstorm, each app instance is private by default. In order to collaborate, 
 
 If you prefer, you can get a Sharing link instead by clicking on the Sharing link element in the UI.
 
-To read more about sharing in Sandstorm, read [Delegation is the cornerstone of civilization](https://blog.sandstorm.io/news/2015-05-05-delegation-is-the-cornerstone-of-civilization.html).
+To read more about sharing in Sandstorm, read [Delegation is the cornerstone of civilization](https://sandstorm.org/news/2015-05-05-delegation-is-the-cornerstone-of-civilization.html).
 
 ### Static publishing
 
-Sandstorm supports a number of publishing apps, including WordPress and Ghost. (The [Sandstorm blog](https://blog.sandstorm.io/) is hosted on our own Sandstorm instance using a custom app called Hacker CMS.)
+Sandstorm supports a number of publishing apps, including WordPress and Ghost.
 
 Try them out!
 
@@ -107,4 +107,4 @@ You can also configure a custom domain to map to the same static content. Only p
 
 ### Ask questions
 
-This brings us to the end of our tour. [Ask questions](https://groups.google.com/forum/#!forum/sandstorm-dev)! Also give me feedback on how to improve this tour.
+This brings us to the end of our tour. [Ask questions](https://groups.io/g/sandstorm-user-group)! Also give me feedback on how to improve this tour.
