@@ -439,7 +439,7 @@ You can ask Sandstorm to do an install as non-root by passing `-u` to the instal
 example:
 
 ```
-curl https://install.sandstorm.io/ > install.sh
+curl https://install.sandstorm.org/ > install.sh
 bash install.sh -u
 ```
 

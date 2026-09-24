@@ -78,12 +78,12 @@ https://testing2.example.com/ in your browser. If you see any kind of certificat
 then note that you need to adjust your configuration for Sandstorm to work properly. Read more in
 our [SSL topic guide.](ssl.md)
 
-## local.sandstorm.io and sandcats.io provide wildcard DNS
+## local.sandstorm.org and sandcats.io provide wildcard DNS
 
 If you are using `vagrant-spk` to develop Sandstorm apps, or are developing Sandstorm itself, you
-will likely use `local.sandstorm.io` as the `BASE_URL` for your Sandstorm server. Sandstorm.io (the
-company behind Sandstorm) maintains `local.sandstorm.io` as a wildcard domain where both
-`local.sandstorm.io` and all of its subdomains (`*.local.sandstorm.io`) point to `127.0.0.1`, the
+will likely use `local.sandstorm.org` as the `BASE_URL` for your Sandstorm server. The Sandstorm project
+maintains `local.sandstorm.org` as a wildcard domain where both
+`local.sandstorm.org` and all of its subdomains (`*.local.sandstorm.org`) point to `127.0.0.1`, the
 same as `localhost`. This allows you to run Sandstorm for development without needing to own a
 domain name or configure wildcard DNS for a subdomain.
 
