@@ -27,7 +27,7 @@ Let's walk through an example.
 
 2. Install Sandstorm on your local machine.
   - Install Linux. Kernel version 3.10 or later is required. [Ubuntu](http://ubuntu.com) 14.04 or later is sufficient.
-  - Install Sandstorm: `curl https://install.sandstorm.io | bash`
+  - Install Sandstorm: `curl https://install.sandstorm.org | bash`
     - You will use this local Sandstorm server for development, so make sure it's running.
     - Make sure to make yourself a member of the server's group, usually called `sandstorm`.
       You may have to log out and back in before this takes effect.

@@ -53,7 +53,7 @@ If -u is specified, default to avoiding root priviliges. Note that the dev tools
 The `-d` option will use **development defaults** for all options, creating a fully non-interactive
 install.  If you provide that option by itself, you will get a `sandstorm.conf` configured to use:
 
-- `BASE_URL=http://local.sandstorm.io:6080`
+- `BASE_URL=http://local.sandstorm.org:6080`
 - `BIND_IP=127.0.0.1` (or `BIND_IP=0.0.0.0` if you pass `-e`)
 
 and other defaults optimized for app development. This includes enabling unprivileged user
@@ -118,7 +118,7 @@ controlling the install script's interaction with the [sandcats.io](sandcats.md)
 To pass an environment variable to the Sandstorm installer, you can do as follows.
 
 ```bash
-curl https://install.sandstorm.io/ > install.sh
+curl https://install.sandstorm.org/ > install.sh
 sudo OVERRIDE_SANDSTORM_DEFAULT_DIR=/opt/sandstorm-is-awesome bash install.sh -d
 ```
 

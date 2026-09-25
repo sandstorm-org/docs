@@ -22,7 +22,7 @@ This page documents a number of ways to install Sandstorm, specifically:
 The easiest way to install Sandstorm is by running:
 
 ```bash
-curl https://install.sandstorm.io | bash
+curl https://install.sandstorm.org | bash
 ```
 
 If you accept the defaults, this will:
@@ -38,7 +38,7 @@ If you accept the defaults, this will:
 You can jump straight into the install by running:
 
 ```bash
-curl https://install.sandstorm.io | bash
+curl https://install.sandstorm.org | bash
 ```
 You can also read [technical documentation on how the install script
 works](administering/install-script.md), including non-interactive modes, or learn [how to
@@ -109,8 +109,8 @@ If you'd rather not trust HTTPS at all, even from GitHub, another option is PGP-
 
 6. Download the installer script and its signature.
 
-    <pre><code class="hljs bash">wget https://install.sandstorm.io/install.sh
-    wget https://install.sandstorm.io/install.sh.sig</code></pre>
+    <pre><code class="hljs bash">wget https://install.sandstorm.org/install.sh
+    wget https://install.sandstorm.org/install.sh.sig</code></pre>
 
 7. Verify the signature, making sure the signing key's fingerprint matches the one from the certificate.
 
@@ -210,7 +210,7 @@ Install it:
     make install
 
 This installs your locally-built bundle just as would get if you had installed using
-`https://install.sandstorm.io`. You will be asked various configuration questions. If you intend
+`https://install.sandstorm.org`. You will be asked various configuration questions. If you intend
 to hack on Sandstorm itself, you should choose to run the server to run under your local user
 account (the default is to create a separate user called `sandstorm`).
 
@@ -258,7 +258,7 @@ If you want to prepare a server to run Sandstorm using a configuration managemen
 configuration management system should take the following steps.
 
 - Download install.sh at runtime within the configuration mangement system from
-  [https://install.sandstorm.io/](https://install.sandstorm.io/), and [verify the install.sh
+  [https://install.sandstorm.org/](https://install.sandstorm.org/), and [verify the install.sh
   signature](#option-3-pgp-verified-install).  Alternatively you can download
   install.sh into your own trusted file storage area and verify it as part of copying it to your own
   trusted file storage area.
@@ -299,7 +299,7 @@ software within Docker, this is one way to make that work.
 To run Sandstorm within Docker, run the following commands in a shell.
 
 ```bash
-$ docker run --privileged -i -t -v sandstorm-data-volume:/opt/sandstorm --name sandstorm-build buildpack-deps bash -c 'useradd --system --user-group sandstorm ; curl https://install.sandstorm.io/ > install.sh && REPORT=no bash install.sh -d -e'
+$ docker run --privileged -i -t -v sandstorm-data-volume:/opt/sandstorm --name sandstorm-build buildpack-deps bash -c 'useradd --system --user-group sandstorm ; curl https://install.sandstorm.org/ > install.sh && REPORT=no bash install.sh -d -e'
 $ docker run --privileged -i -t --sig-proxy=true -p 0.0.0.0:6080:6080 -v sandstorm-data-volume:/opt/sandstorm buildpack-deps bash -c 'useradd --system --user-group sandstorm && /opt/sandstorm/sandstorm start && tail -f /opt/sandstorm/var/log/sandstorm.log & sleep infinity'
 ```
 
@@ -315,7 +315,7 @@ install script to not attempt to report installation problems to us (`REPORT=no`
 
 The next command runs the Sandstorm bundle stored in the volume, serving forever. The `tail -f`
 command is used to print out the Sandstorm log while Sandstorm runs. Sandstorm will be available at
-http://local.sandstorm.io:6080/ . `local.sandstorm.io` is a DNS alias for localhost, indicating that
+http://local.sandstorm.org:6080/ . `local.sandstorm.org` is a DNS alias for localhost, indicating that
 the service is running on the computer where you run Docker.
 
 This process uses Sandstorm's install.sh to download Sandstorm, and Sandstorm is configured via
@@ -325,7 +325,7 @@ This process uses Sandstorm's install.sh to download Sandstorm, and Sandstorm is
   inconsistent with the typical Docker approach of using Docker images to manage updates and
   versioning for application code.
 
-- The install script uses `local.sandstorm.io` and enables development accounts in the `-d` mode. To
+- The install script uses `local.sandstorm.org` and enables development accounts in the `-d` mode. To
   configure Sandstorm for production use, clear the Docker volume (or create a new one), then remove
   `-d` from the first `docker run` invocation so that the Sandstorm install script can ask you
   questions.
@@ -367,7 +367,7 @@ $ vagrant up
 ```
 
 In this configuration, Vagrant/VirtualBox manage TCP port forwarding, and Sandstorm is available at
-http://local.sandstorm.io:6080/ by default. `local.sandstorm.io` is a DNS alias for localhost,
+http://local.sandstorm.org:6080/ by default. `local.sandstorm.org` is a DNS alias for localhost,
 indicating that the service is only visible on the computer where you ran Vagrant.
 
 We do recommend that you run Sandstorm on a native Linux system, but we understand that this isn't
