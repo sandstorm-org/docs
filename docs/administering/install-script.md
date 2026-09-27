@@ -46,7 +46,6 @@ downloads a bundle from the internet via HTTPS.
 
 If -d is specified, the auto-installs with defaults suitable for app development.
 If -e is specified, default to listening on an external interface, not merely loopback.
-If -i is specified, default to (i)nsecure mode where we do not request a HTTPS certificate.
 If -u is specified, default to avoiding root priviliges. Note that the dev tools only work if the server has root privileges.
 ```
 
