@@ -133,7 +133,7 @@ test suite.
 ### Support level
 
 If you rely on these environment variables for driving the Sandstorm installer, then consider
-emailing the [sandstorm-dev Google Group](https://groups.google.com/forum/#!forum/sandstorm-dev) to
+emailing the [sandstorm-dev Group](https://groups.io/g/sandstorm-dev-group) to
 make sure we understand your use-case.
 
 In general, these are supported at a best-effort level. If we need to change something about how
