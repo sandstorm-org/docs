@@ -3,7 +3,7 @@
 ## Introduction
 
 This tutorial will show you how to make a
-[Sandstorm.io](https://sandstorm.io) package from a Meteor app.
+[Sandstorm](https://sandstorm.org) package from a Meteor app.
 
 Creating the package will take about five minutes of focused time,
 interspersed with the downloading of various components, which can
@@ -56,7 +56,7 @@ Sandstorm packages rely on the Sandstorm platform to handle user login
 and access control. You can read more in the [App Developer
 Handbook](../developing/handbook.md). You can use an Atmosphere
 package called
-[kenton:accounts-sandstorm](https://github.com/sandstorm-io/meteor-accounts-sandstorm)
+[sandstormorg:accounts-sandstorm](https://atmospherejs.com/sandstormorg/accounts-sandstorm)
 to integrate with that.
 
 ## Prepare the app
@@ -197,7 +197,7 @@ this URL in your web browser:
 A note about `local.sandstorm.io`: This is the same as `localhost`,
 but in Sandstorm's security model, each session to the app uses a
 temporary subdomain of the main Sandstorm URL. This is an
-implemenation detail that your app mostly does not need to know about,
+implementation detail that your app mostly does not need to know about,
 but it does mean that the domain name running Sandstorm needs
 [wildcard DNS](../administering/wildcard.md). We created
 `local.sandstorm.io` as an alias for `localhost` and gave it wildcard
