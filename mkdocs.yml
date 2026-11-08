@@ -53,6 +53,8 @@ nav:
         - "Installing & uninstalling": "install.md"
         - "Troubleshooting a new install": "administering/install-troubleshooting.md"
         - "Reference docs for install.sh": "administering/install-script.md"
+    - Migration:
+        - "From Sandstorm.io builds": "administering/migrate-from-io.md"
     - "Demo mode": "administering/demo.md"
     - "Backups": "administering/backups.md"
     - Networking configurations:
