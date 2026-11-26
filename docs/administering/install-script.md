@@ -46,7 +46,6 @@ downloads a bundle from the internet via HTTPS.
 
 If -d is specified, the auto-installs with defaults suitable for app development.
 If -e is specified, default to listening on an external interface, not merely loopback.
-If -i is specified, default to (i)nsecure mode where we do not request a HTTPS certificate.
 If -u is specified, default to avoiding root priviliges. Note that the dev tools only work if the server has root privileges.
 ```
 
@@ -134,7 +133,7 @@ test suite.
 ### Support level
 
 If you rely on these environment variables for driving the Sandstorm installer, then consider
-emailing the [sandstorm-dev Google Group](https://groups.google.com/forum/#!forum/sandstorm-dev) to
+emailing the [sandstorm-dev Group](https://groups.io/g/sandstorm-dev-group) to
 make sure we understand your use-case.
 
 In general, these are supported at a best-effort level. If we need to change something about how
